@@ -18,7 +18,7 @@ const getWeather = (city) => {
             humidity2.innerHTML = response.humidity
             max_temp.innerHTML = response.max_temp
             min_temp.innerHTML = response.min_temp
-            sunrise.innerHTML = response.sunrise
+            sunrise.innerHTML = response.sunrise.toUTCString()
             sunset.innerHTML = response.sunset
             temp.innerHTML = response.temp
             temp2.innerHTML = response.temp
