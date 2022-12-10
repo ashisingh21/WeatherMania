@@ -1,9 +1,7 @@
 body {
-
-    background-color: #85D4FF;
-    /* background-position: center;
-
-    background-size: cover; */
+    background-image: url(clouds.jpg);
+    background-position: top;
+    background-size: cover;
 }
 
 .table-responsive {
@@ -12,17 +10,18 @@ body {
     padding: 2rem;
 }
 
-.container-main {
+/* .container-main {
 
-    background-color: #85D4FF;
-    /* background-position: center;
-    background-size: cover; */
-}
+    background-image: url(clouds.jpg);
+    background-position: center;
+    background-size: cover;
+} */
 
 @media screen and (max-width: 576px) {
     body {
-        background-color: #85D4FF;
-        /* background-position: top;
-        background-size: contain; */
+        background-image: url(clouds.jpg);
+        background-position: top;
+        background-size: auto;
+
     }
 }
