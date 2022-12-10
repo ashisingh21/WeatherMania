@@ -14,7 +14,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">WeatherMania</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -27,10 +27,10 @@
 
 
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search">
                     <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-light" id="submit" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
         </div>
     </nav>
@@ -39,9 +39,9 @@
 
     <div class="container my-5">
 
-        <div class="input-group mb-3">
+        <div class="container-fluid p-0  d-flex justify-content-center">
             <input type="text" id="city2" class="form-control" id="searchCity" placeholder="Search your city"
-                aria-label="city" aria-describedby="button-addon2">
+                aria-label="city" aria-describedby="button-addon2" style="width: 30%; height: 3.8rem;">
             <button class="btn btn-dark " id="submit2" id="searchCityButton" type="button" id="button-addon2">Search
                 Weather</button>
         </div>
@@ -108,9 +108,10 @@
                 </div>
             </div>
 
-            <h4 class="display-8 text-center mb-4">Other Common Cities Weather</h4>
+
 
             <div class="table-responsive">
+                <h4 class="display-8 text-center m-3.5">Other Common Cities Weather</h4>
                 <table class="table text-center">
                     <thead>
                         <tr>

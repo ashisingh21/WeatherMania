@@ -1,0 +1,12 @@
+body {
+    background-image: url(/clouds.jpg);
+    background-position: center;
+
+    background-size: cover;
+}
+
+.table-responsive {
+    background-color: rgba(254, 252, 243, 0.7);
+    border-radius: 15px;
+    padding: 2rem;
+}
