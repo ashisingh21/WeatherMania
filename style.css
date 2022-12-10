@@ -11,9 +11,16 @@ body {
     padding: 2rem;
 }
 
+.container-main {
+
+    background-image: url(clouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 @media screen and (max-width: 576px) {
     body {
-        background-image: url(/clouds.jpg);
+        background-image: url(clouds.jpg);
         background-position: top;
         background-size: contain;
     }
