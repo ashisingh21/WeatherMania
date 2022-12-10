@@ -10,3 +10,11 @@ body {
     border-radius: 15px;
     padding: 2rem;
 }
+
+@media screen and (max-width: 576px) {
+    body {
+        background-image: url(/clouds.jpg);
+        background-position: top;
+        background-size: contain;
+    }
+}
