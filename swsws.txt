@@ -1,0 +1,22 @@
+city1_cloud_pct  
+
+city1_humidity
+
+
+
+
+
+
+
+
+
+
+<td id="city1_feels_like">2</td>
+<td id="city1_humidity">2</td>
+<td id="city1_max_temp">2</td>
+<td id="city1_min_temp">2</td>
+<td id="city1_sunrise">2</td>
+<td id="city1_sunset">2</td>
+<td id="city1_temp">2</td>
+<td id="city1_wind_degree">2</td>
+<td id="city1_wind_speed">2</td>
